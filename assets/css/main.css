@@ -23,15 +23,29 @@ div{
 
   height: auto;
   width: 600px;
-  background-color: red;
   margin-left: 3%;
+  float: left;
 }
 
 .work{
   height: auto;
-  width: 600px;
-  background-color: pink;
+  max-width: 35%;
   float: right;
   margin-right: 3%;
 
+}
+
+.about{
+  height: auto;
+  max-width: 35%;
+  float: left;
+  margin-left: 3%;
+
+
+}
+
+
+.title{
+font-family: 'Oregano', cursive;
+text-align: center;
 }
