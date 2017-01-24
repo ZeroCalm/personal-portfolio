@@ -19,10 +19,19 @@ img{
 
 }
 
-a{
+div{
 
-  color: rgb(212, 215, 219);
-  font-size: 3em;
-  margin: 10%;
-  font-family: 'Indie Flower', cursive;
+  height: auto;
+  width: 600px;
+  background-color: red;
+  margin-left: 3%;
+}
+
+.work{
+  height: auto;
+  width: 600px;
+  background-color: pink;
+  float: right;
+  margin-right: 3%;
+
 }
