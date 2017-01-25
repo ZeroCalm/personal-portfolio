@@ -32,7 +32,7 @@ div{
   max-width: 35%;
   float: right;
   margin-right: 3%;
-
+  border-style: solid ridge;
 }
 
 .about{
@@ -40,12 +40,33 @@ div{
   max-width: 35%;
   float: left;
   margin-left: 3%;
-
-
+  border-style: solid ridge;
 }
 
 
 .title{
 font-family: 'Oregano', cursive;
 text-align: center;
+}
+
+
+ul li{
+  list-style: none;
+  padding: 0;
+}
+
+.special {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+nav{
+  border-top: 4px;
+}
+
+
+article {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+  font-weight: bold;
 }
