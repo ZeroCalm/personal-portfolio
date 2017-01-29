@@ -1,18 +1,35 @@
 /* custom styles */
 
 body{
-background-image: url("picture.jpeg");
-background-size: cover;
-background-repeat: no-repeat;
-color: white;
+  background-image: url("picture.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
+.title{
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+}
+
+
 h3{
-color: white;
+  color: white;
+  margin-top: 3%;
 }
 
 .menu{
   text-align: center;
-  margin-top: 25%;
-  margin-right: 40%;
+  margin-top: 22%;
+  margin-right: 35%;
+  font-family: 'Indie Flower', cursive;
 }
+
+
+
+  .aboutPage{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+
+  }
