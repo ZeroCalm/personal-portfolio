@@ -1,72 +1,18 @@
 /* custom styles */
 
 body{
+background-image: url("picture.jpeg");
+background-size: cover;
+background-repeat: no-repeat;
+color: white;
+}
+
+h3{
+color: white;
+}
+
+.menu{
   text-align: center;
-  background-color: rgb(13, 51, 112);
-}
-
-h1{
- font-size: 3em;
-
-}
-
-img{
-  width: 250px;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 10%;
-
-}
-
-div{
-
-  height: auto;
-  width: 600px;
-  margin-left: 3%;
-  float: left;
-}
-
-.work{
-  height: auto;
-  max-width: 35%;
-  float: right;
-  margin-right: 3%;
-  border-style: solid ridge;
-}
-
-.about{
-  height: auto;
-  max-width: 35%;
-  float: left;
-  margin-left: 3%;
-  border-style: solid ridge;
-}
-
-
-.title{
-font-family: 'Oregano', cursive;
-text-align: center;
-}
-
-
-ul li{
-  list-style: none;
-  padding: 0;
-}
-
-.special {
-  font-family: 'Indie Flower', cursive;
-  text-align: center;
-}
-
-nav{
-  border-top: 4px;
-}
-
-
-article {
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.5em;
-  font-weight: bold;
+  margin-top: 25%;
+  margin-right: 40%;
 }
