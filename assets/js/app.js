@@ -1,20 +1,20 @@
-$(document).ready(function(){
-
-
-  $('.about').click(function(){
-    $('.aboutPage').toggle();
-    });
-
-  $('.projects').click(function(){
-    $('.projectsPage').toggle();
-    });
-
-  $('.contacts').click(function(){
-    $('.contactsPage').toggle();
-    });
-
-});
-
+// $(document).ready(function(){
+//
+//
+//   $('.about').click(function(){
+//     $('.aboutPage').toggle();
+//     });
+//
+//   $('.projects').click(function(){
+//     $('.projectsPage').toggle();
+//     });
+//
+//   $('.contacts').click(function(){
+//     $('.contactsPage').toggle();
+//     });
+//
+// });
+//
 
 
 
@@ -24,6 +24,8 @@ $(document).ready(function(){
 
 //
 //                   /////MY 3 PROJECTS////////
+
+
 var myWork = [
 
 {
@@ -46,14 +48,12 @@ var myWork = [
 }]
 
 
-
+///  ADD THEM TO PAGE  ///
 
 for (var i=0; i<myWork.length; i++){
   var name = myWork[i].name;
   var description = myWork[i].description;
   var link = myWork[i].link;
 
-console.log(name)
-
-  // projectsPage.innerHTML(<a href="link" alt="description">name</a>);
+console.log(name + "      " +  description + "     "  + link);
 }
