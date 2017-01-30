@@ -25,11 +25,15 @@ h3{
   font-family: 'Indie Flower', cursive;
 }
 
-
-
-  .aboutPage{
-    height: 50px;
-    width: 50px;
+  .aboutPage, .projectsPage, .contactsPage{
+    height: 75%;
+    width: 60%;
     background-color: red;
-
+    display: none;
+    position: relative;
+    top: -40%;
+    left: 20%;
+    border: 8px solid #gold;
+    background-color: white;
+    color: white;
   }
