@@ -1,20 +1,24 @@
-// $(document).ready(function(){
-//
-//
-//   $('.about').click(function(){
-//     $('.aboutPage').toggle();
-//     });
-//
-//   $('.projects').click(function(){
-//     $('.projectsPage').toggle();
-//     });
-//
-//   $('.contacts').click(function(){
-//     $('.contactsPage').toggle();
-//     });
-//
-// });
-//
+$(document).ready(function(){
+
+
+  $('.projects').click(function(){
+    $('.projectPage').toggle();
+    });
+
+  $('.about').click(function(){
+    $('.aboutPage').toggle();
+    });
+
+
+  $('.contacts').click(function(){
+    $('.contactsPage').toggle();
+    });
+
+
+
+
+});
+
 
 
 
@@ -55,5 +59,7 @@ for (var i=0; i<myWork.length; i++){
   var description = myWork[i].description;
   var link = myWork[i].link;
 
-console.log(name + "      " +  description + "     "  + link);
+
+
+//console.log(name + "      " +  description + "     "  + link);
 }

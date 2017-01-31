@@ -4,7 +4,7 @@ body{
   background-image: url("picture.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+
 }
 
 .title{
@@ -25,10 +25,9 @@ h3{
   font-family: 'Indie Flower', cursive;
 }
 
-  .aboutPage, .projectsPage, .contactsPage{
+  .projectPage, .aboutPage, .contactsPage{
     height: 75%;
     width: 85%;
-    background-color: red;
     display: none;
     position: relative;
     top: -3%;
