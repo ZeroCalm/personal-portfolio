@@ -1,16 +1,19 @@
 $(document).ready(function(){
 
 
-  $('.projects').click(function(){
+  $('.projects').click(function(e) {
+    e.preventDefault();
     $('.projectPage').toggle();
-    });
+  });
 
-  $('.about').click(function(){
+  $('.about').click(function(e) {
+    e.preventDefault();
     $('.aboutPage').toggle();
     });
 
 
-  $('.contacts').click(function(){
+  $('.contacts').click(function(e) {
+    e.preventDefault();
     $('.contactsPage').toggle();
     });
 
